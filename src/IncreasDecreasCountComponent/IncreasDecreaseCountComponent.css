@@ -1,0 +1,9 @@
+button {
+  margin: 30px;
+  padding: 40px;
+}
+button {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}

@@ -24,14 +24,19 @@ import Component1 from "./Components/UseContext/Component1";
 
 // useContext
 import UsingUseContext from "./Components/UseContext/UsingUseContext";
-
+import MyCounter from "../src/MyCounterComponent/MyCounterComponent";
+import IncreaseDecrease from "../src/IncreasDecreasCountComponent/IncreaseDecreaseCountComponent";
+import UseEffect from "../src/UseeffectComponent/UseeffectComponent";
 // First creat context
 export const MyContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <UsingClassLifeCycleComponent />
+      {/* <UsingClassLifeCycleComponent /> */}
+      <MyCounter />
+      <IncreaseDecrease />
+      <UseEffect />
     </div>
   );
 }

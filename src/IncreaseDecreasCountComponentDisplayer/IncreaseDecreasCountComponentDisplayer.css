@@ -1,0 +1,11 @@
+.outer-wrapper {
+  height: 100px;
+  width: 100vm;
+  border: 2px sold wheat;
+}
+.inner-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
